@@ -6,11 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  title: string = 'angular_todo';
+  title: string = 'Event Schedule';
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleAddTask(){
+    console.log('toggle');
   }
 
 }
